@@ -1,0 +1,10 @@
+.keyboardHolder {
+    width: 30vw;
+    padding: 10px;
+/*    border: 2px solid black; */
+}
+
+.keyboardRow {
+    display: flex;
+    height: 10vw;
+}

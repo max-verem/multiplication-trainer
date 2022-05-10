@@ -1,0 +1,11 @@
+.buttonHolder {
+    width: 100%;
+    padding: 5px;
+}
+
+.buttonHolder button {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 8vw;
+}
