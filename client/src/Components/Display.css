@@ -27,12 +27,12 @@
     place-items: center;
 }
 
-.displayDigit2.true {
+.displayDigit2.true, .displayDigit.true {
     background-color: #00CC00;
     color: #FFFFFF;
 }
 
-.displayDigit2.false {
+.displayDigit2.false, .displayDigit.false {
     background-color: #CC0000;
     color: #FFFFFF;
 }
