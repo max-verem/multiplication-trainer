@@ -27,12 +27,12 @@ function App() {
             <Router>
             <header className="App-header">
             <div className='AppMenu'>
-                <NavLink to="MUL" className={(navData) => (navData.isActive ? "AppMenuItem active" : 'AppMenuItem')}> *<br/>MUL </NavLink>
-                <NavLink to="DIV" className={(navData) => (navData.isActive ? "AppMenuItem active" : 'AppMenuItem')}> :<br/>DIV </NavLink>
+                <NavLink to="/multiplication-trainer/MUL" className={(navData) => (navData.isActive ? "AppMenuItem active" : 'AppMenuItem')}> *<br/>MUL </NavLink>
+                <NavLink to="/multiplication-trainer/DIV" className={(navData) => (navData.isActive ? "AppMenuItem active" : 'AppMenuItem')}> :<br/>DIV </NavLink>
             </div>
                 <Routes>
-                    <Route path="MUL" element={<div className="mul"><MainMul list={list}/></div>}/>
-                    <Route path="DIV" element={<div className="div"><MainDiv list={list}/></div>}/>
+                    <Route path="/multiplication-trainer/MUL" element={<div className="mul"><MainMul list={list}/></div>}/>
+                    <Route path="/multiplication-trainer/DIV" element={<div className="div"><MainDiv list={list}/></div>}/>
                 </Routes>
             </header>
             </Router>
